@@ -45,9 +45,9 @@ Most other dependencies should get pulled down automatically when installing ste
    1. This *might* help some older PCs but it mostly just slows down launch times and uses up disk space.
 6. Download Planetside like normal
 7. In Library, right click Planetside 2 and open properties.
-   1. In launch options I recommend adding \`gamemoderun %command%\` to launch planetside with gamemode enabled
-   2. add \`mangohud\` in front of the above if you also want the overlay
-   3. If you find the launcher is running at 1FPS consider adding \`WINEDLLOVERRIDES=libglesv2=d\` to your launch options as well to disable the GPU on the launcher
+   1. In launch options I recommend adding `gamemoderun %command%` to launch planetside with gamemode enabled
+   2. add `mangohud` in front of the above if you also want the overlay
+   3. If you find the launcher is running at 1FPS consider adding `WINEDLLOVERRIDES=libglesv2=d` to your launch options as well to disable the GPU on the launcher
 8. Launch the game and profit
    1. You can test out different versions of proton to see if any net you better performance by using the selector in the compatibility menu in the game properties window where you set launch options
 
@@ -92,7 +92,7 @@ For Lutris
 6. Click install the next screen
 7. Using the three dots change the installation directory to the same directory you installed planetside to
    1. This is usually $HOME/Games/planetside-2 where $HOME is the path to your home directory.
-      1. for me it is \`/home/arched/Games/planetside-2\`
+      1. for me it is `/home/arched/Games/planetside-2`
    2. Lutris will show a warning, it is safe to ignore this.
 8. click continue
 9. using the 3 dots select the RTST msi file you downloaded in step 1
