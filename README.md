@@ -1,6 +1,4 @@
-I have been running planetside on wine for a bit over 3 months now as I moved all my daily computing work over to linux and I have a few updates since my last post on it.
-
-&#x200B;
+**How to install and run Planetside 2 on Linux**
 
 This guide assumes you have basic linux knowledge like how to install packages, and what your distribution is. And remember: Keep calm and google it.
 
