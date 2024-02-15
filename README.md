@@ -2,11 +2,7 @@ I have been running planetside on wine for a bit over 3 months now as I moved al
 
 &#x200B;
 
-This post assumes you have basic linux knowledge like how to install packages, and what your distribution is. And remember: Keep calm and google it.
-
-&#x200B;
-
-I am working on getting this guide uploaded to github in order to keep it updated even once Reddit decides to archive it. I will add the link once that is done
+This guide assumes you have basic linux knowledge like how to install packages, and what your distribution is. And remember: Keep calm and google it.
 
 &#x200B;
 
