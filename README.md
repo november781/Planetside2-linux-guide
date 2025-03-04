@@ -9,8 +9,8 @@ This guide assumes you have basic linux knowledge like how to install packages, 
 Currently I have encountered 3 issues remotely related to running planetside on Linux
 
 1. Gamescope does not work, at least not on non-steam deck hardware
-2. Possible crash when out of focus
-3. Sometimes lutris/steam will not be happy trying to launch recursion in the same wine/proton prefix as planetside.
+2. ~~Possible crash when out of focus~~ Fixed with recent proton versions
+3. ~~Sometimes lutris/steam will not be happy trying to launch recursion in the same wine/proton prefix as planetside.~~ fixed by adding PROTON_VERB=runinprefix to Recursion's Environment variables
 
 Starting with Gamescope on non-steam deck devices: Currently the game returns a G25 error when trying to run in Gamescope on anything other than a brand new wine/proton prefix. I have an open bug report with valve that can be [found here](https://github.com/ValveSoftware/gamescope/issues/1131)
 
@@ -102,7 +102,8 @@ For Lutris
 13. exit out of recursion to let the lutris installer finish
 14. Go to configure on recursion in lutris and make sure that the executable is set under game options
 15. Check to make sure the runner is the same as planetside under runner options.
-16. profit
+16. To solve an issue with wine kernel lock, add the following entry into Recursion's environment variables under the system options tab: Key= PROTON_VERB Value= runinprefix
+17. profit
 
 to launch recursion I recommend first launching planetside in Lutris and then launching recursion. Occasionally lutris might hang when doing this but that fine, just wait or close lutris and re-launch recursion if it didn't launch the first time.
 
